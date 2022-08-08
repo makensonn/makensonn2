@@ -1,6 +1,6 @@
 {
-  "name": "makenson.github.io",
   "homepage": "https://makensonn.github.io",
+  "name": "makenson.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
