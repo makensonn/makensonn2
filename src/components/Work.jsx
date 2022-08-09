@@ -1,12 +1,12 @@
 import React from 'react';
 //import WorkImg from '../assets/workImg.jpeg';
 //import realEstate from '../assets/realestate.jpg';
-import cppp from '../assets/cppp.jpg';
-import javap from '../assets/javap.jpg';
-import robot from '../assets/robot.jpg';
-import pythonp from '../assets/pythonp.jpg';
-import bootstrap from '../assets/bootstrap.jpg';
-import embedded from '../assets/embedded.jpg';
+import cppp from '../assets/cppp.png';
+import javap from '../assets/javap.png';
+import robot from '../assets/robot.png';
+import pythonp from '../assets/pythonp.png';
+import bootstrap from '../assets/bootstrap.png';
+import embedded from '../assets/embedded.png';
 
 const Work = () => {
   return (
