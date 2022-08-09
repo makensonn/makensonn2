@@ -1,13 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.c8a18d40.css",
-    "main.js": "/static/js/main.0af57592.js",
+    "main.js": "/static/js/main.0ac69d9f.js",
+    "static/media/cpp.png": "/static/media/cpp.5163eee0108dc6fc58dc.png",
+    "static/media/python.png": "/static/media/python.7ca1cc411e25a6188060.png",
     "static/media/robot.png": "/static/media/robot.a632d1d1dc8adfaac288.png",
     "static/media/embedded.png": "/static/media/embedded.04e60247596e574b22b7.png",
     "static/media/javap.png": "/static/media/javap.03a594e8d717eddfd74d.png",
     "static/media/pythonp.png": "/static/media/pythonp.6d471359b29facfb759f.png",
     "static/media/bootstrap.png": "/static/media/bootstrap.a7a043b879ed5cc029bf.png",
     "static/media/cppp.png": "/static/media/cppp.f3a0d0822eb652ef0066.png",
+    "static/media/java.png": "/static/media/java.14cc5f01b6c4e73cc9cc.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/aws.png": "/static/media/aws.95bdee6b9922c9b94fd5.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
@@ -20,10 +23,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.c8a18d40.css.map": "/static/css/main.c8a18d40.css.map",
-    "main.0af57592.js.map": "/static/js/main.0af57592.js.map"
+    "main.0ac69d9f.js.map": "/static/js/main.0ac69d9f.js.map"
   },
   "entrypoints": [
     "static/css/main.c8a18d40.css",
-    "static/js/main.0af57592.js"
+    "static/js/main.0ac69d9f.js"
   ]
 }
