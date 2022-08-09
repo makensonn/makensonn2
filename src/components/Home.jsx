@@ -11,12 +11,12 @@ const Home = () => {
           Makenson Noel
         </h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#3d3d3d]'>
-          I'm a Full Stack Developer.
+          I'm a Software Engineer.
         </h2>
         <p className='text-[#3d3d3d] py-4 max-w-[700px]'>
-          I’m a full-stack developer specializing in building (and occasionally
-          designing) exceptional digital experiences. Currently, I’m focused on
-          building responsive full-stack web applications.
+          I Graduated from FAU with a Bachelor of Science in Computer Science 
+          and the journey to becoming an Software Engineer has been a life changing
+          experience.
         </p>
         <div>
           <button className='text-[#0a192f] group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#858585] hover:border-[#ffffff]'>
