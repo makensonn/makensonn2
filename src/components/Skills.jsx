@@ -31,11 +31,11 @@ const Skills = () => {
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Java} alt="HTML icon" />
-                  <p className='my-4'>Java</p>
+                  <p className='my-4'>JAVA</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Python} alt="HTML icon" />
-                  <p className='my-4'>Python</p>
+                  <p className='my-4'>PYTHON</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
@@ -47,7 +47,7 @@ const Skills = () => {
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Tailwind} alt="HTML icon" />
-                  <p className='my-4'>Tailwind CSS</p>
+                  <p className='my-4'>TAILWIND CSS</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={JavaScript} alt="HTML icon" />
@@ -71,7 +71,7 @@ const Skills = () => {
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={FireBase} alt="HTML icon" />
-                  <p className='my-4'>Firebase</p>
+                  <p className='my-4'>FIREBASE</p>
               </div>
           </div>
       </div>
