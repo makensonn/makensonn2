@@ -7,9 +7,6 @@ import Work from "./components/Work";
 
 function App() {
   return (
-    /*<div>
-      <h1 className="text-2xl font-bold">Hello world!</h1>
-    </div>*/
     <div>
       <Navbar />
       <Home />
