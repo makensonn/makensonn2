@@ -16,6 +16,11 @@ import Python from '../assets/skills/python.png';
 
 
 const Skills = () => {
+
+ const skillStyle ='shadow-md shadow-[#040c16] hover:scale-110 duration-500'
+ const skillSize ='w-20 mx-auto'
+ const textStyle ='my-4'
+
   return (
     <div name='skills' className='w-full bg-[#ffffff] text-[#0a192f]'>
       {/* Container */}
@@ -26,64 +31,76 @@ const Skills = () => {
           </div>
           
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={CPP} alt="HTML icon" />
-                    <p className='my-4'>C++</p>
+
+            {/* C++ */}
+            <div className={skillStyle}>
+                    <img className={skillSize} src={CPP} alt="HTML icon" />
+                    <p className={textStyle}>C++</p>
             </div>
 
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={Java} alt="HTML icon" />
-                <p className='my-4'>JAVA</p>
+            {/* Java */}
+            <div className={skillStyle}>
+                <img className={skillSize} src={Java} alt="HTML icon" />
+                <p className={textStyle}>JAVA</p>
             </div>
 
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={Python} alt="HTML icon" />
-                <p className='my-4'>PYTHON</p>
+            {/* Python */}
+            <div className={skillStyle}>
+                <img className={skillSize} src={Python} alt="HTML icon" />
+                <p className={textStyle}>PYTHON</p>
             </div>
 
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
-                <p className='my-4'>HTML</p>
+            {/* HTML */}
+            <div className={skillStyle}>
+                <img className={skillSize} src={HTML} alt="HTML icon" />
+                <p className={textStyle}>HTML</p>
             </div>
 
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={CSS} alt="HTML icon" />
-                <p className='my-4'>CSS</p>
+            {/* CSS */}
+            <div className={skillStyle}>
+                <img className={skillSize} src={CSS} alt="HTML icon" />
+                <p className={textStyle}>CSS</p>
             </div>
 
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={Tailwind} alt="HTML icon" />
-                <p className='my-4'>TAILWIND CSS</p>
+            {/* Tailwind CSS */}
+            <div className={skillStyle}>
+                <img className={skillSize} src={Tailwind} alt="HTML icon" />
+                <p className={textStyle}>TAILWIND CSS</p>
+            </div>
+            {/* JavaScript */}
+            <div className={skillStyle}>
+                <img className={skillSize} src={JavaScript} alt="HTML icon" />
+                <p className={textStyle}>JAVASCRIPT</p>
             </div>
 
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={JavaScript} alt="HTML icon" />
-                <p className='my-4'>JAVASCRIPT</p>
+            {/* React */}
+            <div className={skillStyle}>
+                <img className={skillSize} src={ReactImg} alt="HTML icon" />
+                <p className={textStyle}>REACT</p>
             </div>
 
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
-                <p className='my-4'>REACT</p>
+            {/* GitHub */}
+            <div className={skillStyle}>
+                <img className={skillSize} src={GitHub} alt="HTML icon" />
+                <p className={textStyle}>GITHUB</p>
             </div>
 
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={GitHub} alt="HTML icon" />
-                <p className='my-4'>GITHUB</p>
+            {/* Node.js */}
+            <div className={skillStyle}>
+                <img className={skillSize} src={Node} alt="HTML icon" />
+                <p className={textStyle}>NODE JS</p>
             </div>
 
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={Node} alt="HTML icon" />
-                <p className='my-4'>NODE JS</p>
+            {/* MongoDB */}
+            <div className={skillStyle}>
+                <img className={skillSize} src={Mongo} alt="HTML icon" />
+                <p className={textStyle}>MONGO DB</p>
             </div>
-
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={Mongo} alt="HTML icon" />
-                <p className='my-4'>MONGO DB</p>
-            </div>
-
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={FireBase} alt="HTML icon" />
-                <p className='my-4'>FIREBASE</p>
+            
+            {/* Firebase */}
+            <div className={skillStyle}>
+                <img className={skillSize} src={FireBase} alt="HTML icon" />
+                <p className={textStyle}>FIREBASE</p>
             </div>
 
           </div>
