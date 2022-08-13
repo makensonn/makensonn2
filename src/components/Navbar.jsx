@@ -38,8 +38,8 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to='work' smooth={true} duration={500}>
-            Work
+          <Link to='projects' smooth={true} duration={500}>
+            Projects
           </Link>
         </li>
         <li>
@@ -59,7 +59,8 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
+            //: 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
+            : 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#0a192f] p-10 ease-in duration-500'
         }
       >
         <li className='py-6 text-4xl'>
@@ -81,8 +82,8 @@ const Navbar = () => {
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Work
+          <Link onClick={handleClick} to='projects' smooth={true} duration={500}>
+            Projects
           </Link>
         </li>
         <li className='py-6 text-4xl'>
