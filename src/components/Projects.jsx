@@ -170,7 +170,7 @@ const Projects = () => {
            <div style={{ backgroundImage: `url(${cppp})` }} className={divStyle}>
             {/* Hover Effects */}
             <div className={opacityEffect}>
-              <span className={titleStyle}>Pyradise</span>
+              <span className={titleStyle}>C++ Projects</span>
               <div className={textPosition}>
                 <a href={cppProject} target='_blank'><button className={demoButtonStyle}> Demo </button></a>
                 <a href={cppCode} target='_blank'><button className={codeButtonStyle}> Code </button></a>
