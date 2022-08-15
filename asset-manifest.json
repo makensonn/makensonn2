@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.f52aa01b.css",
-    "main.js": "/static/js/main.ee2e7334.js",
+    "main.js": "/static/js/main.22062cbf.js",
+    "static/media/embedded.png": "/static/media/embedded.97bf32f15ae7fde39fcf.png",
+    "static/media/robot.png": "/static/media/robot.776a9270f0d1e6a8ebe2.png",
+    "static/media/todo.png": "/static/media/todo.d0d1e09ab241f6346e69.png",
+    "static/media/pyradise.png": "/static/media/pyradise.87765e7a44f47000665c.png",
     "static/media/cpp.png": "/static/media/cpp.5163eee0108dc6fc58dc.png",
+    "static/media/rfb.png": "/static/media/rfb.00e8af453dc98412e151.png",
     "static/media/python.png": "/static/media/python.7ca1cc411e25a6188060.png",
-    "static/media/robot.png": "/static/media/robot.a632d1d1dc8adfaac288.png",
-    "static/media/embedded.png": "/static/media/embedded.04e60247596e574b22b7.png",
     "static/media/javap.png": "/static/media/javap.03a594e8d717eddfd74d.png",
-    "static/media/pythonp.png": "/static/media/pythonp.6d471359b29facfb759f.png",
     "static/media/bootstrap.png": "/static/media/bootstrap.a7a043b879ed5cc029bf.png",
     "static/media/cppp.png": "/static/media/cppp.f3a0d0822eb652ef0066.png",
     "static/media/java.png": "/static/media/java.14cc5f01b6c4e73cc9cc.png",
@@ -23,10 +25,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.f52aa01b.css.map": "/static/css/main.f52aa01b.css.map",
-    "main.ee2e7334.js.map": "/static/js/main.ee2e7334.js.map"
+    "main.22062cbf.js.map": "/static/js/main.22062cbf.js.map"
   },
   "entrypoints": [
     "static/css/main.f52aa01b.css",
-    "static/js/main.ee2e7334.js"
+    "static/js/main.22062cbf.js"
   ]
 }
