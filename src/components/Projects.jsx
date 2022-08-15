@@ -2,11 +2,13 @@ import React from 'react';
 import cppp from '../assets/projects/cppp.png';
 import javap from '../assets/projects/javap.png';
 import robot from '../assets/projects/robot.png';
+import pythonp from '../assets/projects/pythonp.png';
 import pyradise from '../assets/projects/pyradise.png';
 import bootstrap from '../assets/projects/bootstrap.png';
 import embedded from '../assets/projects/embedded.png';
 import rfb from '../assets/projects/rfb.png';
 import todo from '../assets/projects/todo.png';
+import soon from '../assets/projects/soon.jpg';
 
 
 const Projects = () => {
@@ -40,18 +42,20 @@ const Projects = () => {
   const embeddedProject ='https://www.youtube.com/watch?v=bSMZXMQQ2XY'
   const bootstrapProject ='https://pyradisesw.github.io/'
   const robotProject='https://youtu.be/CdM2Otm6FBI'
+  const chatBot ='https://makenson.com/bop/img/soon.jpg'
 
   //Project Source Code
   const reactNativeCode ='https://github.com/makensonn/flappy_bird_remake'
   const reactCode='https://github.com/makensonn/todo'
   const nextCode =''
   const vueCode =''
-  const cppCode ='https://github.com/cplusplus'
+  const cppCode ='https://github.com/makensonn/cplusplus'
   const javaCode ='https://github.com/makensonn/java'
   const pythonCode ='https://github.com/makensonn/python'
   const embeddedCode ='https://github.com/makensonn/Arduino_smart_home'
   const bootstrapCode ='https://github.com/pyradisesw/pyradisesw.github.io'
   const robotCode ='https://github.com/materialhandlingrobot/Materialhandlingrobot-'
+  const chatBotCode = 'https://github.com/makensonn/chatbot'
 
 
   return (
@@ -67,13 +71,13 @@ const Projects = () => {
 
 
           {/* Grid Item */}
-          <div style={{ backgroundImage: `url(${javap})` }} className={divStyle}>
+          <div style={{ backgroundImage: `url(${soon})` }} className={divStyle}>
             {/* Hover Effects */}
             <div className={opacityEffect}>
-              <span className={titleStyle}>Java Applications</span>
+              <span className={titleStyle}>Firebase Chat App</span>
               <div className={textPosition}>
-                <a href={javaProject} target='_blank'><button className={demoButtonStyle}> Demo </button></a>
-                <a href={javaCode} target='_blank'><button className={codeButtonStyle}> Code </button></a>
+                <a href={chatBot} target='_blank'><button className={demoButtonStyle}> Demo </button></a>
+                <a href={chatBotCode} target='_blank'><button className={codeButtonStyle}> Code </button></a>
               </div>
             </div>
           </div>
@@ -137,6 +141,42 @@ const Projects = () => {
               </div>
             </div>
           </div>
+
+           {/* Grid Item */}
+          <div style={{ backgroundImage: `url(${javap})` }} className={divStyle}>
+            {/* Hover Effects */}
+            <div className={opacityEffect}>
+              <span className={titleStyle}>Java Projects</span>
+              <div className={textPosition}>
+                <a href={javaProject} target='_blank'><button className={demoButtonStyle}> Demo </button></a>
+                <a href={javaCode} target='_blank'><button className={codeButtonStyle}> Code </button></a>
+              </div>
+            </div>
+          </div>         
+
+          {/* Grid Item */}
+          <div style={{ backgroundImage: `url(${pythonp})` }} className={divStyle}>
+            {/* Hover Effects */}
+            <div className={opacityEffect}>
+              <span className={titleStyle}>Python Projects</span>
+              <div className={textPosition}>
+                <a href={pythonProject} target='_blank'><button className={demoButtonStyle}> Demo </button></a>
+                <a href={pythonCode} target='_blank'><button className={codeButtonStyle}> Code </button></a>
+              </div>
+            </div>
+          </div>
+
+           {/* Grid Item */}
+           <div style={{ backgroundImage: `url(${cppp})` }} className={divStyle}>
+            {/* Hover Effects */}
+            <div className={opacityEffect}>
+              <span className={titleStyle}>Pyradise</span>
+              <div className={textPosition}>
+                <a href={cppProject} target='_blank'><button className={demoButtonStyle}> Demo </button></a>
+                <a href={cppCode} target='_blank'><button className={codeButtonStyle}> Code </button></a>
+              </div>
+            </div>
+          </div>         
 
         </div>
       </div>

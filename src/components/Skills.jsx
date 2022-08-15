@@ -27,15 +27,15 @@ const Skills = () => {
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div>
               <p className='text-4xl font-bold inline border-b-4 border-[#858585]'><br></br><br></br>Skills</p>
-              <p className='py-4'>// These are the technologies I've worked with</p>
+              <p className='py-4'>// These are the langauges and technologies I've worked with</p>
           </div>
           
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-
-            {/* C++ */}
+            
+            {/* JavaScript */}
             <div className={skillStyle}>
-                    <img className={skillSize} src={CPP} alt="HTML icon" />
-                    <p className={textStyle}>C++</p>
+                <img className={skillSize} src={JavaScript} alt="HTML icon" />
+                <p className={textStyle}>JAVASCRIPT</p>
             </div>
 
             {/* Java */}
@@ -48,6 +48,12 @@ const Skills = () => {
             <div className={skillStyle}>
                 <img className={skillSize} src={Python} alt="HTML icon" />
                 <p className={textStyle}>PYTHON</p>
+            </div>            
+
+            {/* C++ */}
+            <div className={skillStyle}>
+                <img className={skillSize} src={CPP} alt="HTML icon" />
+                <p className={textStyle}>C++</p>
             </div>
 
             {/* HTML */}
@@ -62,21 +68,22 @@ const Skills = () => {
                 <p className={textStyle}>CSS</p>
             </div>
 
-            {/* Tailwind CSS */}
+            {/* Node.js */}
             <div className={skillStyle}>
-                <img className={skillSize} src={Tailwind} alt="HTML icon" />
-                <p className={textStyle}>TAILWIND CSS</p>
-            </div>
-            {/* JavaScript */}
-            <div className={skillStyle}>
-                <img className={skillSize} src={JavaScript} alt="HTML icon" />
-                <p className={textStyle}>JAVASCRIPT</p>
-            </div>
+                <img className={skillSize} src={Node} alt="HTML icon" />
+                <p className={textStyle}>NODE JS</p>
+            </div>            
 
             {/* React */}
             <div className={skillStyle}>
                 <img className={skillSize} src={ReactImg} alt="HTML icon" />
                 <p className={textStyle}>REACT</p>
+            </div>
+
+            {/* Tailwind CSS */}
+            <div className={skillStyle}>
+                <img className={skillSize} src={Tailwind} alt="HTML icon" />
+                <p className={textStyle}>TAILWIND CSS</p>
             </div>
 
             {/* GitHub */}
@@ -85,10 +92,10 @@ const Skills = () => {
                 <p className={textStyle}>GITHUB</p>
             </div>
 
-            {/* Node.js */}
+            {/* Firebase */}
             <div className={skillStyle}>
-                <img className={skillSize} src={Node} alt="HTML icon" />
-                <p className={textStyle}>NODE JS</p>
+                <img className={skillSize} src={FireBase} alt="HTML icon" />
+                <p className={textStyle}>FIREBASE</p>
             </div>
 
             {/* MongoDB */}
@@ -97,11 +104,6 @@ const Skills = () => {
                 <p className={textStyle}>MONGO DB</p>
             </div>
             
-            {/* Firebase */}
-            <div className={skillStyle}>
-                <img className={skillSize} src={FireBase} alt="HTML icon" />
-                <p className={textStyle}>FIREBASE</p>
-            </div>
 
           </div>
       </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
+import { Link } from 'react-scroll';
 
 const Home = () => {
 
@@ -26,7 +27,15 @@ const Home = () => {
         <h2 className={titleStyle}> I'm a Software Engineer.</h2>
         <p className={descriptionStyle}>I developed this website using Firebase, Express, React, Node and Tailwind CSS. </p>
         <div>
-          <button className={buttonStyle}>There's more <span className={animation}><HiArrowNarrowRight className='ml-3 ' /></span></button>
+           <ul> 
+              <li> 
+                <Link to='about' smooth={true} duration={500}>
+                  <button className={buttonStyle}> There's more 
+                    <span className={animation}><HiArrowNarrowRight className='ml-3 '/></span>
+                  </button> 
+                </Link>
+              </li>
+            </ul>
         </div>
       </div>
     </div>
