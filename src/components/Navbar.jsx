@@ -32,7 +32,7 @@ const Navbar = () => {
   const linkedinLink = 'https://www.linkedin.com/in/makensonnoel/'
   const githubLink = 'https://github.com/makensonn'
   const emailLink = 'mailto: makenson.noel@live.com'
-  const resumeLink = 'https://drive.google.com/file/d/1S8w-ZdxV6RusNX9vog7_WaT0Sba5Kcpr/view?usp=sharing'
+  const resumeLink = 'https://drive.google.com/drive/u/4/folders/1RjitJ1TRsskAJgX2kx5aIXJ1nanW0Rj5'
 
   return (
     <div className={navBarStyle}>
